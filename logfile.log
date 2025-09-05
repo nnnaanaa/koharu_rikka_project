@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/python/koharu_rikka_project/app.py", line 5, in <module>
+    data, samplerate = sf.read(filename)
+                       ^^^^^^^^^^^^^^^^^
+  File "/python/koharu_rikka_project/.env/lib/python3.12/site-packages/soundfile.py", line 305, in read
+    with SoundFile(file, 'r', samplerate, channels,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/python/koharu_rikka_project/.env/lib/python3.12/site-packages/soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/python/koharu_rikka_project/.env/lib/python3.12/site-packages/soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening './soundfile/Music/hello_v2.wav': System error.
