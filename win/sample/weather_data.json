@@ -1,0 +1,136 @@
+{
+    "publicTime": "2025-09-06T17:00:00+09:00",
+    "publicTimeFormatted": "2025/09/06 17:00:00",
+    "publishingOffice": "熊谷地方気象台",
+    "title": "埼玉県 さいたま の天気",
+    "link": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=110000",
+    "description": {
+        "publicTime": "2025-09-06T16:33:00+09:00",
+        "publicTimeFormatted": "2025/09/06 16:33:00",
+        "headlineText": "",
+        "bodyText": "　関東甲信地方は、高気圧に覆われています。\n\n　埼玉県は、晴れとなっています。\n\n　６日は、高気圧に覆われますが、湿った空気の影響を受ける見込みです。このため、晴れで、夜は曇りとなるでしょう。\n\n　７日は、引き続き高気圧に覆われますが、湿った空気の影響を受ける見込みです。このため、南部と北部では、晴れで、明け方まで曇りとなるでしょう。秩父地方では、晴れ時々曇りとなる見込みです。",
+        "text": "　関東甲信地方は、高気圧に覆われています。\n\n　埼玉県は、晴れとなっています。\n\n　６日は、高気圧に覆われますが、湿った空気の影響を受ける見込みです。このため、晴れで、夜は曇りとなるでしょう。\n\n　７日は、引き続き高気圧に覆われますが、湿った空気の影響を受ける見込みです。このため、南部と北部では、晴れで、明け方まで曇りとなるでしょう。秩父地方では、晴れ時々曇りとなる見込みです。"
+    },
+    "forecasts": [
+        {
+            "date": "2025-09-06",
+            "dateLabel": "今日",
+            "telop": "晴のち曇",
+            "detail": {
+                "weather": "晴れ　夜　くもり",
+                "wind": "南東の風",
+                "wave": null
+            },
+            "temperature": {
+                "min": {
+                    "celsius": null,
+                    "fahrenheit": null
+                },
+                "max": {
+                    "celsius": null,
+                    "fahrenheit": null
+                }
+            },
+            "chanceOfRain": {
+                "T00_06": "--%",
+                "T06_12": "--%",
+                "T12_18": "--%",
+                "T18_24": "10%"
+            },
+            "image": {
+                "title": "晴のち曇",
+                "url": "https://www.jma.go.jp/bosai/forecast/img/110.svg",
+                "width": 80,
+                "height": 60
+            }
+        },
+        {
+            "date": "2025-09-07",
+            "dateLabel": "明日",
+            "telop": "晴れ",
+            "detail": {
+                "weather": "晴れ　明け方　まで　くもり",
+                "wind": "北西の風　後　南東の風",
+                "wave": null
+            },
+            "temperature": {
+                "min": {
+                    "celsius": "24",
+                    "fahrenheit": "75.2"
+                },
+                "max": {
+                    "celsius": "35",
+                    "fahrenheit": "95"
+                }
+            },
+            "chanceOfRain": {
+                "T00_06": "10%",
+                "T06_12": "0%",
+                "T12_18": "0%",
+                "T18_24": "0%"
+            },
+            "image": {
+                "title": "晴れ",
+                "url": "https://www.jma.go.jp/bosai/forecast/img/100.svg",
+                "width": 80,
+                "height": 60
+            }
+        },
+        {
+            "date": "2025-09-08",
+            "dateLabel": "明後日",
+            "telop": "晴のち曇",
+            "detail": {
+                "weather": "晴れ　後　くもり",
+                "wind": "東の風",
+                "wave": null
+            },
+            "temperature": {
+                "min": {
+                    "celsius": "26",
+                    "fahrenheit": "78.8"
+                },
+                "max": {
+                    "celsius": "37",
+                    "fahrenheit": "98.6"
+                }
+            },
+            "chanceOfRain": {
+                "T00_06": "40%",
+                "T06_12": "40%",
+                "T12_18": "40%",
+                "T18_24": "40%"
+            },
+            "image": {
+                "title": "晴のち曇",
+                "url": "https://www.jma.go.jp/bosai/forecast/img/110.svg",
+                "width": 80,
+                "height": 60
+            }
+        }
+    ],
+    "location": {
+        "area": "関東",
+        "prefecture": "埼玉県",
+        "district": "南部",
+        "city": "さいたま"
+    },
+    "copyright": {
+        "title": "(C) 天気予報 API（livedoor 天気互換）",
+        "link": "https://weather.tsukumijima.net/",
+        "image": {
+            "title": "天気予報 API（livedoor 天気互換）",
+            "link": "https://weather.tsukumijima.net/",
+            "url": "https://weather.tsukumijima.net/logo.png",
+            "width": 120,
+            "height": 120
+        },
+        "provider": [
+            {
+                "link": "https://www.jma.go.jp/jma/",
+                "name": "気象庁 Japan Meteorological Agency",
+                "note": "気象庁 HP にて配信されている天気予報を JSON データへ編集しています。"
+            }
+        ]
+    }
+}
